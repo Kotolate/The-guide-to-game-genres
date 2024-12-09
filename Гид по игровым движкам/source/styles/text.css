@@ -1,0 +1,65 @@
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+    color:rgb(153, 61, 151);
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 0.8em;
+    color:rgb(153, 61, 151);
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.6em;
+    color:rgb(153, 61, 151);
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 1em;
+}
+
+li {
+    margin-bottom: 0.5em;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+.container {
+    padding: 20px;
+}
+
+
+
+h1, h2, h3 {
+    font-weight: 600; /* Более bold заголовки */
+}
+
+
+/* Список */
+ul {
+    padding-left: 25px; /* Отступ для маркеров */
+}
+
+
+
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Автоматическое подстраивание под ширину экрана */
+    grid-gap: 10px;
+    margin-bottom: 20px;
+}
+
+.image-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+}
+

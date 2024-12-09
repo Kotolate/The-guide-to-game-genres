@@ -1,0 +1,6 @@
+body{
+    cursor:url('cursor-pow-deafult.png'),pointer;
+}
+a, button, .nav-btn, input, label, .slider-arrow{
+    cursor:url('cursor-pow-point.png'),default;
+}
